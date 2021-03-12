@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #003580;
+}
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo_box{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo_box h1{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.logo_box h1 a{
+    color: white;
+}
+.logo_box h1 span{
+    color: #009FE2;
+}
+.menu{
+    float: right;
+    height: 100%;
+}
+.menu li{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.menu li:last-child{
+    padding-right: 0;
+}
+.menu li a{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+}
+.menu li a:hover span{
+    border-bottom: 2px solid white;
+}
+
+.content {
+    min-height: 600px;
+    width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.content .content_inner{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.content .content_inner h1{
+    text-align: center ;
+}
+
+.content .content_inner h2{
+    text-align: center ;
+    padding-top: 5px;
+    font-weight: normal;
+}
+
+.top_container{
+    border-bottom: 1px solid #ededed;
+    height: 38px;
+}
+
+#kategori_baslik {
+    float: left;
+}
+
+.my_form_container{
+    margin-top: 30px;
+}
+
+.my_form {
+    border-spacing: 10px;
+}
+.giris_yap{
+    float: right;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.uye_ol{
+    float: right;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.my_bt {
+    width: 75px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+#cikis{
+    margin: 15px;
+}
+footer{
+    height: 200px;
+    width: 100%;
+    display: block;
+    background-color: #001B42;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .inner_footer {
+    width: 1000px;
+    height: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+footer .inner_footer .inner_footer_content {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+footer .inner_footer .inner_footer_content h2 {
+    color: white;
+    width: 100%;
+    font-weight: lighter;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+footer .inner_footer .inner_footer_content span {
+    color: #bdbdbd;
+    width: 100%;
+    font-weight: lighter;
+    display: block;
+}
+
+footer .footer_bottom{
+    width: 100%;
+    height: 15%;
+    display: block;
+    background-color: #000d1c;
+}
+
+footer .footer_bottom .footer_bottom_inner {
+    width: 1000px;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+    color: white;
+}
+
+footer .footer_bottom .footer_bottom_inner span {
+    font-size: 12px;
+    font-weight: 200;
+    height: 100%;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.left_container {
+    float: left;
+    width: 20%;
+}
+
+.search_container {
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.85);
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.85);
+    background: #FEBB02;
+    margin-top: 25px;
+}
+
+#hizmetAdi {
+    color: #383838;
+    font-size: medium;
+    font-weight: lighter;
+}
+
+#search_form{
+    width: 100%;
+    border-spacing: 5px;
+    padding: 10px;
+}
+#search_input{
+    width: 100%;
+    height: 20px;
+}
+
+.right_container {
+    float: right;
+    width: 78%;
+}
+
+.product {
+    display: block;
+    height: 230px;
+}
+.product:first-child{
+    margin-top: 20px;
+}
+.product_img {
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.product_left {
+    float: left;
+    width: 38%;
+}
+
+.product_right{
+    float: right;
+    width: 60%;
+}
+
+.product_shopping{
+    margin-top: 15px;
+    float: right;
+}
+
+.prodcut_header{
+    margin-bottom: 10px;
+}
+
+.product_description {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.product_button {
+    box-shadow:inset 0px 1px 0px 0px #54a3f7;
+    background:linear-gradient(to bottom, #0077CC 5%, #0061a7 100%);
+    background-color:#0077CC;
+    border-radius:3px;
+    border:1px solid #124d77;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-size:14px;
+    padding:8px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #154682;
+    float: right;
+}
+.product_button:hover {
+    background:linear-gradient(to bottom, #0061a7 5%, #0077CC 100%);
+    background-color:#0061a7;
+}
+.product_button:active {
+    position:relative;
+    top:1px;
+}
+
+.product_price {
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+#shopping_img{
+    max-width: 380px;
+}
+
+#shopping_product_price {
+    margin-top: 15px;
+}
+
+.shopping_shop {
+    float: right;
+}
+
+.summary_bt {
+    box-shadow:inset 0px 1px 0px 0px #276873;
+    background:linear-gradient(to bottom, #2f5563 5%, #1c6c78 100%);
+    background-color:#2f5563;
+    border-radius:3px;
+    border:1px solid #29668f;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:14px;
+    padding:8px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+}
+.summary_bt:hover {
+    background:linear-gradient(to bottom, #1c6c78 5%, #2f5563 100%);
+    background-color:#1c6c78;
+}
+.summary_bt:active {
+    position:relative;
+    top:1px;
+}
+
+.cikis_bt {
+    box-shadow:inset 0px 1px 0px 0px #cf866c;
+    background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+    background-color:#d0451b;
+    border-radius:3px;
+    border:1px solid #942911;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:13px;
+    padding:8px 15px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #854629;
+}
+.cikis_bt:hover {
+    background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+    background-color:#bc3315;
+}
+.cikis_bt:active {
+    position:relative;
+    top:1px;
+}
+
+.top_right {
+    float: right;
+}
+#top_cikis{
+    margin-left: 15px;
+    padding: 6px 9px !important;
+}
+
+#username_baslik{
+    font-size: 100%;
+    display: inline-block;
+}
+
+#username_a{
+    color: black;
+}
+
+#summary_table{
+    border-spacing: 15px;
+    border: 1px solid;
+    margin-top: 30px;
+}
+
+.main_img{
+    border: 1px solid #ededed;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.main_img img{
+    width: 100%;
+    display: block;
+}
